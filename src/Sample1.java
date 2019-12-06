@@ -12,18 +12,19 @@ public class Sample1 {
         System.out.println("input second number");
         int num2 = input.nextInt();
 
+//      **** sum ****
         int result = num1 + num2;
         System.out.println("sum is : " + result);
-
+//      **** multiply ****
         result = num1 * num2;
         System.out.println("multiply is : " + result);
-
+//      **** subtract ****
         result = (num1>num2)? (num1 - num2) : (num2 - num1);
         System.out.println("subtract is : " + result);
-
+//      **** divide ****
         result = (num1>num2)? (num1 / num2) : (num2 / num1);
         System.out.println("divide is : " + result);
-
+//      **** remainder ****
         result = (num1>num2)? (num1 % num2) : (num2 % num1);
         System.out.println("remainder is : " + result);
 
