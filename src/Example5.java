@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Sample5 {
+public class Example5 {
     public static void main(String[] args) {
 
         int[] sum = new int [10];

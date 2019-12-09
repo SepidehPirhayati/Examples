@@ -1,7 +1,7 @@
 //Write a Java program to convert a decimal number to hexadecimal number
 import java.util.Scanner;
 
-public class Sample8 {
+public class Example8 {
 
     public static void main(String[] args) {
 

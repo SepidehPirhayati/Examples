@@ -1,6 +1,6 @@
 //Write a Java program to print an American flag on the screen
 
-public class Sample4 {
+public class Example4 {
 
     public static void main(String[] args) {
 

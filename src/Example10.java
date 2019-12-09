@@ -1,7 +1,7 @@
 //Write a Java program to convert a binary number to hexadecimal number
 import java.util.Scanner;
 
-public class Sample10 {
+public class Example10 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

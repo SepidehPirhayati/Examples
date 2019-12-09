@@ -1,7 +1,7 @@
 //Write a Java program to print the area and perimeter of a circle
 import java.util.Scanner;
 
-public class Sample3 {
+public class Example3 {
 
     public static void main(String[] args) {
 
