@@ -15,6 +15,6 @@ public class Example12 {
         time%=60;
         //second
         s=time;
-        System.out.println(h +" : "+ m + " : " + s );
+        System.out.println("Converted Time-> "+ h +":"+ m + ":" + s );
     }
 }
