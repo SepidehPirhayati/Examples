@@ -7,14 +7,11 @@ public class Example12 {
         System.out.println("input time in seconds : ");
         int time = in.nextInt();
         int h, m, s;
-        //hour
-        h=time/3600;
+        h=time/3600; // hour
         time%=3600;
-        //minute
-        m=time/60;
+        m=time/60; // minute
         time%=60;
-        //second
-        s=time;
+        s=time; // second
         System.out.println("Converted Time-> "+ h +":"+ m + ":" + s );
     }
 }
