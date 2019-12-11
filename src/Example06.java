@@ -1,9 +1,7 @@
 //Write a Java program to multiply two binary numbers
-
 import java.util.Scanner;
 
-public class Example6 {
-
+public class Example06 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
@@ -48,9 +46,4 @@ public class Example6 {
         }
         return result;
     }
-
-
-
-
-
 }
