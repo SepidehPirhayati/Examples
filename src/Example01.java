@@ -1,5 +1,4 @@
 //Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers
-
 import java.util.Scanner;
 
 public class Example1 {
