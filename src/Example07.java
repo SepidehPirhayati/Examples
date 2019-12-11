@@ -1,8 +1,7 @@
 //Write a Java program to convert a decimal number to binary number
-
 import java.util.Scanner;
 
-public class Example7 {
+public class Example07 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
