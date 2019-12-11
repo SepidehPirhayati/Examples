@@ -1,13 +1,11 @@
 //Write a Java program to add two binary numbers
-
 import java.util.Scanner;
 
-public class Example5 {
+public class Example05 {
     public static void main(String[] args) {
 
         int[] sum = new int [10];
         int carry = 0 , i = 0;
-
         Scanner in = new Scanner(System.in);
         System.out.println("Input first binary number :");
         long input1 = in.nextLong();
@@ -20,12 +18,10 @@ public class Example5 {
             input1 /= 10;
             input2 /= 10;
         }
-
         if( carry != 0){
             sum[i++] = carry;
         }
         i--;
-
         System.out.println("Sum is :");
         while (i>=0){
             System.out.print(sum[i--]);
