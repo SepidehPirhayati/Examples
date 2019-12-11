@@ -1,10 +1,8 @@
 //Write a Java program to convert a decimal number to hexadecimal number
 import java.util.Scanner;
 
-public class Example8 {
-
+public class Example08 {
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in);
         System.out.println("Enter Decimal Number : ");
         int num = in.nextInt();
