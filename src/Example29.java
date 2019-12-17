@@ -1,5 +1,6 @@
 /*Write a Java program to check if the value 20 appears three times and
-no 20’s are next to each other in an given array of integers.*/
+no 20’s are next to each other in an given array of integers.
+***One method of Example28 is used***.*/
 import java.util.Scanner;
 
 public class Example29 {
