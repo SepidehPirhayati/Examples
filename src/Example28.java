@@ -4,18 +4,11 @@ import java.util.Scanner;
 
 public class Example28 {
     public static void main(String[] args) {
-        Scanner  in = new Scanner(System.in);
-        System.out.println("Enter array of integer like 2 3 4 5 6 ... : " );
-        String array = in.nextLine();
+        Scanner in = new Scanner(System.in);
+        int[] nums = inputArray(in);
         System.out.println("Enter specified number : ");
         int num = in.nextInt();
-        String[] splits = array.split(" ");
-        int[] nums = new int[splits.length];
-        int i = 0;
         boolean flag = false;
-        for (String str:splits) {
-            nums[i++]=Integer.parseInt(str);
-        }
         for (int j = 0 ; j < nums.length-1 ; j++){
             if (nums[j] == num && nums[j + 1] == num) {
                 flag = true;
@@ -27,5 +20,15 @@ public class Example28 {
             }
         }
         System.out.println(flag);
+    }
+    public static int[] inputArray(Scanner in){
+        System.out.println("Enter array of integer like 2 3 4 5 6 ... : " );
+        String array = in.nextLine();
+        String[] splits = array.split(" ");
+        int[] nums = new int[splits.length];
+        int i = 0;
+        for (String str:splits)
+            nums[i++]=Integer.parseInt(str);
+        return  nums;
     }
 }
