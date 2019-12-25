@@ -7,7 +7,7 @@ public class Example43 {
         int row = in.nextInt();
         for(int i = 1; i <= row ; i++){
             int k =i;
-            for (int j = 1 ; j <= row - i; j++){
+            for (int j = 1; j <= row-i; j++){
                 System.out.print(" ");
             }
             while (k>0)
