@@ -6,9 +6,17 @@ public class Example35 {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter number : ");
         int num = in.nextInt();
-         if(num % 4 == 0)
-             System.out.println(true);
-         else
-             System.out.println(false);
+        boolean isTrue = true;
+        if(num < 4)
+            System.out.println(false);
+        else{
+            while(num != 1 && isTrue){
+                if (num % 4 != 0) {
+                    isTrue = false;
+                }
+                num /= 4;
+            }
+        }
+        System.out.println(isTrue);
     }
 }
